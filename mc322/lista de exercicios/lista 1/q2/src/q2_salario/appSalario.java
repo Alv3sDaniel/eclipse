@@ -5,16 +5,16 @@ public class appSalario {
 	public static double reajuste(double salario) {
 		double salario_reajustado = 0;
 		if(salario > 0 && salario <= 150) {
-			salario_reajustado =  salario*(1.25);
+			salario_reajustado =  salario*(1 + 25.0/100);
 		}
 		else if(salario > 150 && salario <= 300) {
-			salario_reajustado =  salario*(1.20);
+			salario_reajustado =  salario*(1 + 20.0/100);
 		}
 		else if(salario > 300 && salario <= 600) {
-			salario_reajustado =  salario*(1.15);
+			salario_reajustado =  salario*(1 + 15.0/100);
 		}
 		else{
-			salario_reajustado =  salario*(1.1);
+			salario_reajustado =  salario*(1 + 10.0/100);
 		}
 		return salario_reajustado;
 	}
