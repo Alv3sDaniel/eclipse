@@ -18,6 +18,7 @@ public class Main {
 				System.out.println(i);
 			}
 		}
+		System.out.println("uma nova linha");
 		in.close();
 	}
 }
