@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class AppOrdemAlfabetica {
 	
 	public static String[] juntaListas(String[] v1, String[] v2){
-		//testando commit
 		int t1, t2;
 		t1 = v1.length;
 		t2 = v2.length;
