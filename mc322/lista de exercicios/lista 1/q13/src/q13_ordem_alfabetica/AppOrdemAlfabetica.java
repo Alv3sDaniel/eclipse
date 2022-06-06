@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class AppOrdemAlfabetica {
 	
 	public static String[] juntaListas(String[] v1, String[] v2){
-		//teste outro commit
 		int t1, t2;
 		t1 = v1.length;
 		t2 = v2.length;
@@ -60,8 +59,7 @@ public class AppOrdemAlfabetica {
 		imprimeLista(v1);
 		imprimeLista(v2);
 		imprimeLista(vr);
-		
-		System.out.println("teste token");
+
 		
 	}
 }
