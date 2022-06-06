@@ -5,10 +5,6 @@ import java.util.Arrays;
 public class AppOrdemAlfabetica {
 	
 	public static String[] juntaListas(String[] v1, String[] v2){
-<<<<<<< HEAD
-
-=======
->>>>>>> branch 'main' of https://github.com/Alv3sDaniel/eclipse
 		int t1, t2;
 		t1 = v1.length;
 		t2 = v2.length;
@@ -63,11 +59,6 @@ public class AppOrdemAlfabetica {
 		imprimeLista(v1);
 		imprimeLista(v2);
 		imprimeLista(vr);
-<<<<<<< HEAD
-		
-=======
-
->>>>>>> branch 'main' of https://github.com/Alv3sDaniel/eclipse
 		
 	}
 }
