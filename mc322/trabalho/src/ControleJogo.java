@@ -4,6 +4,6 @@ public class ControleJogo {
 	private char acao;
 	
 	public void comando(char c) {
-		System.out.println("o comando foi recebido foi: " + c);
+		System.out.println("o comando recebido foi: " + c);
 	}
 }
