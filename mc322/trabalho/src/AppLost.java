@@ -33,5 +33,11 @@ public class AppLost {
 		for (int i = 0; i < cars.size(); i++) {
 			System.out.println(cars.get(i));
 		}
+		
+		int i,j;
+		//pega o indice de algo especifico do arraylist
+		i = cars.indexOf("Ford");
+		j = cars.indexOf("Mazda");
+		System.out.println(i+" "+ j );
 	}
 }
