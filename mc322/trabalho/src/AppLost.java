@@ -47,5 +47,6 @@ public class AppLost {
 		
 		System.out.println("O comando recebido foi: " + comando);
 		// duvida: como fazer o programa ler o comando sem precisar usar o "enter"?
+		// ou então como incluir um enter em linhas de codigo?
 	}
 }
