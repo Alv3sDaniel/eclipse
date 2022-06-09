@@ -48,5 +48,6 @@ public class AppLost {
 		System.out.println("O comando recebido foi: " + comando);
 		// duvida: como fazer o programa ler o comando sem precisar usar o "enter"?
 		// ou então como incluir um enter em linhas de codigo?
+		// solucao:  criar metodo mecheTeclado() dentro da classe ControleJogo que vai escutar um comando dado no teclado e chamar um metodo que realiza a acao
 	}
 }
