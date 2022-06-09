@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class AppLost {
 
 	public static void main(String[] args) {
-		ArrayList<String> cars = new ArrayList<String>();
+		/*ArrayList<String> cars = new ArrayList<String>();
 	    cars.add("Volvo");
 	    cars.add("BMW");
 	    cars.add("Ford");
@@ -38,6 +38,14 @@ public class AppLost {
 		//pega o indice de algo especifico do arraylist
 		i = cars.indexOf("Ford");
 		j = cars.indexOf("Mazda");
-		System.out.println(i+" "+ j );
+		System.out.println(i+" "+ j );*/
+		
+		Scanner in = new Scanner(System.in);
+		
+		char comando;
+		comando = in.nextLine().charAt(0);
+		
+		System.out.println("O comando recebido foi: " + comando);
+		// duvida: como fazer o programa ler o comando sem precisar usar o "enter"?
 	}
 }
